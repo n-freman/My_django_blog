@@ -20,7 +20,9 @@ mkdir django_site
 python -m venv venv
 cd venv/Scripts
 activate 
-../../
+cd ../../
 git clone https://github.com/tiberius-kirk/My_django_blog.git
+cd My_django_blog
 pip install -r requirements.txt
+python manage.py runserver
 ```
